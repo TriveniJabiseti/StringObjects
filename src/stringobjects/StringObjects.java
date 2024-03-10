@@ -14,7 +14,7 @@ public class StringObjects {
 		System.out.println("first word of the string: "+str.substring(0, 4));
 		
 		//last word of string
-		System.out.println("last word of the string: "+str.substring(5, 16));
+		System.out.println("last word of the string: "+str.substring(5, str.length()));
         
 		//substring from index 3 to 7
 		System.out.println("substring from index 3 to 7: "+str.substring(3, 8));
