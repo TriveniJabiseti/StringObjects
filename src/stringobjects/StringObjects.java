@@ -11,7 +11,14 @@ public class StringObjects {
 		System.out.println("length of the string: "+str.length());
 		
 		//first word of string
-		System.out.println("first word of the string: "+str.substring(0, 4));
+                int index = str.indexOf(' ');
+                if (index != -1) {
+                String firstWord = str.substring(0, index);
+                System.out.println("First word: " + firstWord);
+                } 
+                else {
+                System.out.println("No words found in the string");
+                }
 		
 		//last word of string
 		System.out.println("last word of the string: "+str.substring(5, str.length()));
