@@ -10,7 +10,7 @@ public class StringObjects {
 		//length of the string
 		System.out.println("length of the string: "+str.length());
 		
-		//first word of string
+		//first word of the string
                 int index = str.indexOf(' ');
                 if (index != -1) {
                 String firstWord = str.substring(0, index);
