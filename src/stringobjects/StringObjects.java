@@ -79,6 +79,8 @@ public class StringObjects {
                 //checking both strings are equal or not
                 String str3="Java Programming";
                 System.out.println(str.equals(str3));
+                System.out.println(str.equalsIgnoreCase(str3));
+                System.out.println(str==str3);
     }
     
 }
