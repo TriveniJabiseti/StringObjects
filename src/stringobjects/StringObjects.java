@@ -5,7 +5,7 @@ public class StringObjects {
 
     
     public static void main(String[] args) {
-        String str="Java Programming";
+                String str="Java Programming";
 		
 		//length of the string
 		System.out.println("length of the string: "+str.length());
@@ -68,6 +68,10 @@ public class StringObjects {
 		
 		//index of 'a' from left to right
 		System.out.println(str.indexOf('a'));
+                
+                //checking both strings are equal or not
+                String str3="Java Programming";
+                System.out.println(str.equals(str3));
     }
     
 }
